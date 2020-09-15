@@ -1,0 +1,9 @@
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\bin\Debug\Fahrzeuge-Projekt.exe
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\bin\Debug\Fahrzeuge-Projekt.pdb
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-Projekt.csprojAssemblyReference.cache
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge_Projekt.Properties.Resources.resources
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-Projekt.csproj.GenerateResource.cache
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-Projekt.csproj.CoreCompileInputs.cache
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-Projekt.exe
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-Projekt.pdb
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge_Projekt.Autobahn.resources
