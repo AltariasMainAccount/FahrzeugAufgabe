@@ -60,8 +60,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoImage.cs" />
     <Compile Include="Automobil.cs" />
-    <Compile Include="Fahrrad.cs" />
     <Compile Include="Fahrzeug.cs" />
     <Compile Include="Autobahn.cs">
       <SubType>Form</SubType>
@@ -70,6 +70,7 @@
       <DependentUpon>Autobahn.cs</DependentUpon>
     </Compile>
     <Compile Include="Landfahrzeug.cs" />
+    <Compile Include="Lane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Autobahn.resx">
@@ -108,6 +109,21 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Big_Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\road image simple top view.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
