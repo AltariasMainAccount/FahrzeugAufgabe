@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Fahrzeuge_Projekt
+﻿namespace Fahrzeuge_Projekt
 {
-	abstract class Fahrzeug
+    abstract class Fahrzeug
 	{
 		private int maxSpeed;
 		private bool active;

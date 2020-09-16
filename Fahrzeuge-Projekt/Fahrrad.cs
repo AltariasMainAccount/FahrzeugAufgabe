@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-
-namespace Fahrzeuge_Projekt
+﻿namespace Fahrzeuge_Projekt
 {
-	class Fahrrad : Landfahrzeug
+    class Fahrrad : Landfahrzeug
 	{
 		public override void SetMaxSpeed(int x)
 		{

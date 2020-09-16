@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace Fahrzeuge_Projekt
 {
-	static class Program
+    static class Program
 	{
 		/// <summary>
 		/// Der Haupteinstiegspunkt für die Anwendung.
@@ -15,7 +13,9 @@ namespace Fahrzeuge_Projekt
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Autobahn());
+			Application.Run(new Autobahn());	
 		}
-	}
+		
+
+    }
 }

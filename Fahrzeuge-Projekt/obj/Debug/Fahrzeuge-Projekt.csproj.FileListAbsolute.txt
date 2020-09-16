@@ -7,3 +7,4 @@ C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-
 C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-Projekt.exe
 C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge-Projekt.pdb
 C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\obj\Debug\Fahrzeuge_Projekt.Autobahn.resources
+C:\Users\19nerlich\source\repos\fahrzeuge\Fahrzeuge-Projekt\bin\Debug\Fahrzeuge-Projekt.exe.config

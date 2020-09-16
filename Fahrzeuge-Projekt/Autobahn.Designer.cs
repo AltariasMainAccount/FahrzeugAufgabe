@@ -43,9 +43,9 @@ namespace Fahrzeuge_Projekt
             this.BlackCar.BackColor = System.Drawing.Color.Transparent;
             this.BlackCar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BlackCar.BackgroundImage")));
             this.BlackCar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BlackCar.Location = new System.Drawing.Point(828, 174);
+            this.BlackCar.Location = new System.Drawing.Point(981, 163);
             this.BlackCar.Name = "BlackCar";
-            this.BlackCar.Size = new System.Drawing.Size(144, 76);
+            this.BlackCar.Size = new System.Drawing.Size(195, 94);
             this.BlackCar.TabIndex = 0;
             this.BlackCar.TabStop = false;
             // 
@@ -54,11 +54,10 @@ namespace Fahrzeuge_Projekt
             this.BlueCar.BackColor = System.Drawing.Color.Transparent;
             this.BlueCar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BlueCar.BackgroundImage")));
             this.BlueCar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BlueCar.Location = new System.Drawing.Point(39, 310);
+            this.BlueCar.Location = new System.Drawing.Point(-192, 301);
             this.BlueCar.Name = "BlueCar";
-            this.BlueCar.Size = new System.Drawing.Size(141, 76);
-            this.BlueCar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.BlueCar.TabIndex = 1;
+            this.BlueCar.Size = new System.Drawing.Size(195, 94);
+            this.BlueCar.TabIndex = 2;
             this.BlueCar.TabStop = false;
             // 
             // Autobahn
@@ -68,8 +67,8 @@ namespace Fahrzeuge_Projekt
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(984, 561);
-            this.Controls.Add(this.BlackCar);
             this.Controls.Add(this.BlueCar);
+            this.Controls.Add(this.BlackCar);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -89,8 +88,8 @@ namespace Fahrzeuge_Projekt
 
         #endregion
 
-        protected System.Windows.Forms.PictureBox BlueCar;
-        protected System.Windows.Forms.PictureBox BlackCar;
+        private System.Windows.Forms.PictureBox BlackCar;
+        private System.Windows.Forms.PictureBox BlueCar;
     }
 }
 

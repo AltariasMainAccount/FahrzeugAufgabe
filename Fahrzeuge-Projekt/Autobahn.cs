@@ -1,41 +1,47 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Threading;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Fahrzeuge_Projekt
 {
-    public partial class Autobahn : Form
+	public partial class Autobahn : Form
 	{
 		public Autobahn()
 		{
 			InitializeComponent();
+			timer1.Interval = 16;
+			timer1.Enabled = true;
+			timer1.Tick += Timer1_Tick;
 		}
 
+		System.Windows.Forms.Timer timer1 = new System.Windows.Forms.Timer();
+		private void Timer1_Tick(object sender, EventArgs e)
+		{
+			moveCar(BlueCar, "right");
+			moveCar(BlackCar, "left");
+		}
 		private void CloseWindow(object sender, EventArgs e)
 		{
 			Process.GetCurrentProcess().Kill();
 		}
 
-		private void StartThreads()
+		private bool moveCar(PictureBox e, string x)
         {
-			Thread thr1 = new Thread(BlackCar.StartProcess());
-			Thread thr2 = new Thread(BlueCar.StartProcess());
-			bool running = true;
-
-			while(running)
+			if(x == "right")
             {
-				System.Random random = new System.Random();
-				int randomThreadStart = random.Next(10);
-                if(randomThreadStart < 5)
-                {
-					thr1.Start();
-				}
-				else
-                {
-					thr2.Start();
-				}
+				e.Location = new Point(e.Location.X + 3, e.Location.Y);
+            }
+			else if(x == "left")
+            {
+				e.Location = new Point(e.Location.X - 3, e.Location.Y);
 			}
+			else
+            {
+				Console.WriteLine("Parameter Error -> Direction is invalid or missing");
+            }
+			return true;
         }
-	}
+
+    }
 }
